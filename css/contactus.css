@@ -1,0 +1,151 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-image: linear-gradient(180deg, rgb(216, 214, 214),  #ffffff ,rgb(138, 134, 134));
+    justify-content: center;
+  }
+
+
+/* nav bar*/
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none; 
+    text-transform: uppercase;
+    font-family: Garamond, serif;
+    font-size: 13px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.nav-bar a {
+    text-decoration: none;
+}
+
+li {
+ margin: 15px 15px 0 15px;
+ }
+
+li a:hover {
+   color: blueviolet;
+  }
+
+.logo {
+    width: 300px;
+    height: 80px;
+}
+
+/*Contact Section*/
+.contact-section {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height: auto;
+}
+
+.contact-section h1 {
+    text-align: center;
+    color: rgb(65, 60, 60);
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+}
+
+.contact-form-text:focus {
+    box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn {
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #ffffff;
+    padding: 12px 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover {
+    background: grey;
+}
+
+/*Footer*/
+footer {
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+  /*  background-color: gray; */
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size:  1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 10px;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 5px 3px;
+    line-height:  15px;
+    font-size: 14px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.socials a {
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background-color: rgb(94, 92, 92);
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
